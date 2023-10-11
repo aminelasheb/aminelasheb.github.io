@@ -1,6 +1,7 @@
 
 
-(function($) {
+$(document).ready(function($) {
+//function($) {
 
 	var	$window = $(window),
 		$body = $('body'),
