@@ -196,6 +196,7 @@
 									<ul class="actions special">
 										<li><a href="javascript:void(0);" class="button" onclick="scrollToFooter()">For Sale</a></li>
 
+
 									</ul>
 								</article>
 
@@ -300,11 +301,12 @@
 			<script src="assets/js/main.js"></script>
 
 		<script>
-		    function scrollToFooter() {
- 		       var footer = document.getElementById('footer');
-      			  footer.scrollIntoView({ behavior: 'smooth' });
-  						  }
+    function scrollToFooter() {
+        var footer = document.getElementById('footer');
+        footer.scrollIntoView({ behavior: 'smooth', block: 'start' }); // Adjust 'block' to 'start' for consistent behavior
+    }
 </script>
+
 
 	</body>
 </html>
